@@ -1,0 +1,52 @@
+name: grocery_mart
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0-334.2.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/apple.png
+    - assets/milk.png
+    - assets/bread.png
+    - assets/rice.png
+    - assets/banana.png
+    - assets/yogurt.png
+    - assets/cart.png  # 👈 added empty cart image here
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/grocery.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/icon/grocery.png
+  android: true
+  ios: true
+  android_gravity: center
+  ios_content_mode: center
