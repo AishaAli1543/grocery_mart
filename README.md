@@ -96,12 +96,12 @@ flutter run
   ## 📸 Screenshots
 
 ### 🏠 Home Screen
-![Home](screenshot/home.png)
-
-### 🧺 Empty Cart
-![Empty Cart](screenshot/cart_empty.png)
+<img src="screenshot/home.png" width="300"/>
 
 ### 📄 Product Detail
-![Detail](screenshot/product_detail.png)
+<img src="screenshot/product_detail.png" width="300"/>
+
+### 🧺 Empty Cart
+<img src="screenshot/cart_empty.png" width="300"/>
 
 
