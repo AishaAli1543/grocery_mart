@@ -58,3 +58,50 @@ git clone https://github.com/AishaAli1543/grocery_mart.git
 cd grocery_mart
 flutter pub get
 flutter run
+```
+## ✅ Features Implemented
+
+- 🛍️ **Product Listing**  
+  Displays grocery items in a responsive grid layout using `GridView`.
+
+- 📂 **Category Filtering**  
+  Filter products based on categories using horizontal `ChoiceChip`.
+
+- 🔎 **Search Functionality**  
+  Real-time search bar that filters product list based on user input.
+
+- 🛒 **Cart Functionality**  
+  - Add products to cart  
+  - Increase or decrease quantity  
+  - Remove items from cart  
+  - Display total price and quantity
+
+- 💾 **Cart Persistence**  
+  Cart data is stored locally using `shared_preferences`, so the cart is not lost on app restart.
+
+- 📄 **Product Detail Screen**  
+  Displays a detailed view with product image, name, price, and description.
+
+- 🧺 **Empty Cart Illustration**  
+  Shows an image and "Continue Shopping" button when the cart is empty for a better user experience.
+
+- 🎨 **Custom UI & Font**  
+  Styled using `ThemeData`, rounded cards, and the `Poppins` font.
+
+- ✨ **Splash Screen**  
+  Implemented using `flutter_native_splash` with a custom logo.
+
+- 🧩 **State Management**  
+  Uses `Provider` and `ChangeNotifier` for reactive UI updates across the app.
+  ## 📸 Screenshots
+
+### 🏠 Home Screen
+![Home](screenshots/home.png)
+
+### 🧺 Empty Cart
+![Empty Cart](screenshots/cart_empty.png)
+
+### 📄 Product Detail
+![Detail](screenshots/product_detail.png)
+
+
