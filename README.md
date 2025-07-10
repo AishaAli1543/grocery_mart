@@ -104,4 +104,49 @@ flutter run
 ### 🧺 Empty Cart
 <img src="screenshot/cart_empty.png" width="300"/>
 
+ ## 🧠 Technical Decisions
+
+- **State Management:** Chose `Provider` + `ChangeNotifier` for lightweight state management suitable for a beginner-friendly app.
+- **Persistence:** Used `shared_preferences` to locally store cart data so it persists across sessions.
+- **UI Design:** Focused on a clean layout with `GridView`, `ChoiceChip`, and `TextField`. Used `Poppins` font for a modern feel.
+- **Code Structure:** Separated logic into `models`, `providers`, `screens`, and `services` folders for scalability and clarity.
+- **Routing:** Used `Navigator.push()` for simple, manual navigation between screens.
+
+---
+
+## 🧩 Challenges Faced & Solutions
+
+| Challenge | Solution |
+|----------|----------|
+| Integrating shared preferences for cart persistence | Serialized cart items to JSON and restored them during `initState` via async loading |
+| Empty cart UI looked bland | Added an illustration (`assets/cart.png`) and a “Continue Shopping” button |
+| Splash screen and app icon setup | Used `flutter_native_splash` and `flutter_launcher_icons` for native asset integration |
+| Resizing large screenshots in README | Switched to `<img>` HTML tags for width control |
+
+---
+
+## ⏱ Time Breakdown
+
+| Task | Estimated Time |
+|------|----------------|
+| Project setup, folders, pubspec config | 1 hour |
+| Product listing + filtering | 2 hours |
+| Cart functionality with persistence | 2 hours |
+| Product detail screen + description | 1 hour |
+| Splash screen & icon | 30 minutes |
+| README + screenshots + cleanup | 1 hour |
+| **Total** | **~7.5 hours** |
+
+---
+
+## 📚 Key Learnings
+
+- Gained confidence in structuring real-world Flutter apps
+- Learned how to use `Provider` for simple but powerful state management
+- Implemented local persistence with `shared_preferences`
+- Understood how to organize assets and improve UI/UX
+- Improved GitHub practices (README, commits, repo structure)
+
+---
+
 
